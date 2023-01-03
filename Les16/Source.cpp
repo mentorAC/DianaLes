@@ -33,6 +33,11 @@ int main() {
 	{
 		cout << arr[i] << ' ';
 	}
+
+	delete[] arr;
+
+	//new delete
+	// new[] delete[]
 	//cout << &arr[0] << " " << &arr[1] << " " << &arr[2] <<  " " << &arr[3] <<"\n";
 	//cout << ptr << " " << ptr + 1 << " " << ptr + 2 << " " << ptr + 3 << "\n";
 	//cout << arr << " " << arr + 1 << " " << arr + 2 << " " << arr + 3 << "\n";
